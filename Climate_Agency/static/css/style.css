@@ -1,0 +1,52 @@
+:root{ --bg1:#06142e; --bg2:#185adb; --accent:#00b4d8; }
+html,body{height:100%}
+body{
+  margin:0; font-family:"Poppins",system-ui,Segoe UI,Roboto,Arial;
+  background: linear-gradient(160deg,var(--bg1), var(--bg2));
+  color:#eaf6ff;
+  overflow-y:auto;
+}
+/* moving clouds background (subtle) */
+body:before{
+  content:""; position:fixed; left:0; top:0; right:0; bottom:0;
+  background-image: radial-gradient(rgba(255,255,255,0.02) 1px, transparent 1px);
+  opacity:0.03; pointer-events:none;
+  animation: bgShift 40s linear infinite;
+}
+@keyframes bgShift { from {background-position:0 0} to {background-position:2000px 0} }
+
+.glass-nav{ margin: 18px auto; max-width:1200px; background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border-radius:14px; padding:10px 18px; border:1px solid rgba(255,255,255,0.03); backdrop-filter: blur(10px); box-shadow:0 10px 30px rgba(0,0,0,0.45); }
+.logo-anim{ width:44px; height:44px; border-radius:50%; background: conic-gradient(var(--accent), #2a52be); box-shadow:0 8px 24px rgba(0,180,216,0.12); animation: spin 6s linear infinite; display:inline-block;}
+@keyframes spin { from{transform:rotate(0)} to{transform:rotate(360deg)} }
+.brand-text{ font-weight:700; font-size:1.18rem; margin-left:10px; color:#fff; }
+.text-accent{ color:var(--accent); }
+
+/* search */
+.search-box{ min-width:260px; max-width:420px; background: rgba(255,255,255,0.03); border:none; color:#eaf6ff; border-radius:14px; padding:10px 14px;}
+.search-box::placeholder{ color: rgba(255,255,255,0.35); }
+
+/* glass card */
+.glass{ background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02)); border-radius:12px; border:1px solid rgba(255,255,255,0.03); padding:18px; backdrop-filter: blur(10px); box-shadow:0 10px 30px rgba(3,8,23,0.5); transition: transform .25s ease, box-shadow .25s ease; }
+.glass:hover{ transform: translateY(-6px); box-shadow:0 18px 40px rgba(0,0,0,0.6);}
+
+/* main area */
+.main-wrap{ max-width:1200px; margin:18px auto; padding:10px; }
+
+/* weather icon */
+.weather-icon{ width:110px; animation: float 3s ease-in-out infinite;}
+@keyframes float{ 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+
+/* horizontal scroll */
+.h-scroll{ display:flex; gap:12px; overflow:auto; padding-bottom:8px; }
+.hour-card, .day-card{ min-width:92px; background: rgba(255,255,255,0.02); border-radius:12px; padding:10px; text-align:center; border:1px solid rgba(255,255,255,0.02); color:#eaf6ff; }
+.hour-card .small, .day-card .small{ color:rgba(255,255,255,0.6); font-size:0.85rem; }
+
+/* map */
+#map{ width:100%; height:520px; border-radius:10px; }
+
+/* footer */
+.glass-footer{ max-width:1200px; margin:18px auto; border-radius:10px; padding:14px; background: linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.02)); border:1px solid rgba(255,255,255,0.03); text-align:center; color:#cfe3ff; }
+
+/* responsive */
+@media (max-width:991px){ .search-box{ min-width:140px;} #map{ height:360px; } }
+@media (max-width:575px){ .brand-text{ display:none; } .weather-icon{ width:84px; } }

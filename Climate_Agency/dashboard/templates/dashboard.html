@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'">
+  
+
+  
+  <title>Climate Agency - Dashboard</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Leaflet (Map) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body class="weather-bg" id="weatherBackground">
+
+  <!-- SIDEBAR -->
+  <aside id="sidebar" class="sidebar d-flex flex-column p-3">
+    <div class="brand mb-4">
+      <div class="logo">☁️</div>
+      <h5 class="m-0">Climate Agency</h5>
+      <small class="text-muted">Analytics Dashboard</small>
+    </div>
+
+    <ul class="nav flex-column gap-1">
+      <li class="nav-item"><a href="#" class="nav-link active"><i class="fa-solid fa-house"></i> Dashboard</a></li>
+      <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-python"></i> Python</a></li>
+      <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-django"></i> Django</a></li>
+      <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-database"></i> Datasets</a></li>
+      <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-chart-line"></i> Analytics</a></li>
+      <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-map"></i> Map</a></li>
+      <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-video"></i> Videos</a></li>
+    </ul>
+
+    <div class="mt-auto">
+      <button id="themeToggle" class="btn btn-sm w-100 mb-2">Toggle Dark/Light</button>
+      <small class="text-muted">© 2025 Climate Agency</small>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <div class="main-content" id="mainContent">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light px-4 py-3 glass-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <i id="liveLogo" class="fa-solid fa-cloud-sun logo-icon me-2"></i>
+          <span>Climate Agency</span>
+        </a>
+
+        <div class="d-flex align-items-center ms-auto gap-2">
+          <form id="topSearchForm" class="d-flex me-2" onsubmit="event.preventDefault(); doSearch();">
+            <input id="cityInputTop" class="form-control search-bar" placeholder="Search city or country..." />
+            <button class="btn btn-go ms-2" type="submit">Go</button>
+          </form>
+
+          <div class="dropdown">
+            <button class="btn btn-account dropdown-toggle" data-bs-toggle="dropdown">Account</button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Register</a></li>
+              <li><a class="dropdown-item" href="#">Login</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+              <li><a class="dropdown-item" href="#">Forgot Password</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PAGE BODY -->
+    <div class="container-fluid p-4">
+
+      <!-- Row 1: Weather + Cards -->
+      <div class="row g-3">
+        <div class="col-lg-4">
+          <div class="glass-card p-3 h-100">
+            <div class="d-flex justify-content-between align-items-start">
+              <div>
+                <h6 id="cityName">Korangi, PK</h6>
+                <h2 id="temperature" class="big-temp">--°C</h2>
+                <p id="conditionText" class="mb-0 small text-muted">--</p>
+              </div>
+              <div class="text-end">
+                <img id="weatherIcon" src="" width="96" alt="icon" />
+                <div class="mt-2 small text-muted" id="sunriseSunset">--</div>
+              </div>
+            </div>
+
+            <hr class="my-3">
+            <div id="hourlyForecast" class="forecast-scroll"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div class="glass-card p-3 animated-card">
+                <h6>Total Users</h6>
+                <h3 id="totalUsers">1,234</h3>
+                <small class="text-muted">Last 30 days</small>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="glass-card p-3 animated-card">
+                <h6>Datasets</h6>
+                <h3 id="totalDatasets">58</h3>
+                <small class="text-muted">Active sources</small>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="glass-card p-3 animated-card">
+                <h6>Reports</h6>
+                <h3 id="totalReports">12</h3>
+                <small class="text-muted">Generated</small>
+              </div>
+            </div>
+
+            <!-- Chart -->
+            <div class="col-12">
+              <div class="glass-card p-3">
+                <h6>Temperature Trends (demo)</h6>
+                <canvas id="trendChart" height="120"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2: Map + 7-day + News Carousel -->
+      <div class="row g-3 mt-2">
+        <div class="col-lg-6">
+          <div class="glass-card p-3 h-100">
+            <h6>Live Map</h6>
+            <div id="map" style="height:340px;border-radius:10px;overflow:hidden;"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="glass-card p-3 h-100">
+            <h6>7-Day Forecast</h6>
+            <div id="dailyForecast" class="d-flex flex-column gap-2"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="glass-card p-3 h-100">
+            <h6>Latest Climate News</h6>
+            <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner" id="newsInner">
+                <div class="carousel-item active">Loading headlines...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3: Datasets CRUD Table -->
+      <div class="row g-3 mt-3">
+        <div class="col-12">
+          <div class="glass-card p-3">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h6 class="m-0">Datasets</h6>
+              <div>
+                <button class="btn btn-sm btn-outline-light" id="refreshDatasets">Refresh</button>
+                <button class="btn btn-sm btn-go" id="addDatasetBtn">Add Dataset</button>
+              </div>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table table-borderless text-white" id="datasetsTable">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Source</th>
+                    <th>Records</th>
+                    <th>Last Updated</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="datasetsBody">
+                  <!-- rows populated by JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- container -->
+
+  </div> <!-- main-content -->
+
+  <!-- ADD / EDIT Dataset Modal -->
+  <div class="modal fade" id="datasetModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <form id="datasetForm" class="modal-content glass-card p-3">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="datasetModalTitle">Add Dataset</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input type="hidden" id="datasetId">
+          <div class="mb-2">
+            <label class="form-label">Name</label>
+            <input id="datasetName" class="form-control" required>
+          </div>
+          <div class="mb-2">
+            <label class="form-label">Source URL</label>
+            <input id="datasetSource" class="form-control" required>
+          </div>
+          <div class="mb-2">
+            <label class="form-label">Records (approx)</label>
+            <input id="datasetRecords" type="number" class="form-control">
+          </div>
+        </div>
+        <div class="modal-footer border-0">
+          <button type="submit" class="btn btn-go">Save</button>
+          <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Bootstrap + Leaflet + dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Custom JS -->
+  <script src="../static/js/script.js" defer></script>
+ 
+</body>
+</html>

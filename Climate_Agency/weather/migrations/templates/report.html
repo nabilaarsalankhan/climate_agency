@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Report</title>
+  <link rel="stylesheet" href="{% static 'weather/css/style.css' %}">
+</head>
+<body class="glass">
+  <div class="container">
+    <h1>📊 Weather Report History</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>City</th>
+          <th>Temp (°C)</th>
+          <th>Humidity (%)</th>
+          <th>Wind (m/s)</th>
+          <th>Description</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for r in reports %}
+        <tr>
+          <td>{{ r.city }}</td>
+          <td>{{ r.temperature }}</td>
+          <td>{{ r.humidity }}</td>
+          <td>{{ r.wind_speed }}</td>
+          <td>{{ r.description }}</td>
+          <td>{{ r.date|date:"Y-m-d H:i" }}</td>
+        </tr>
+        {% empty %}
+        <tr><td colspan="6">No records found.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <a href="/">🔙 Back to Home</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+{% comment %} {% comment %} {% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ClimateApp — Live Weather</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Leaflet -->
+  {% comment %} <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/> {% endcomment %}
+  <!-- Lottie -->
+{% comment %}  
+
+  <link rel="stylesheet" href="{% static '../css/style.css' %}">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="glass-nav container d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center">
+      <span class="logo-anim" aria-hidden="true"></span>
+      <div class="brand-text ms-2">CLIMATE<span class="text-accent">App</span></div>
+    </div>
+
+    <form class="d-flex mx-auto" action="{% url 'weather:forecast' %}" method="get" style="width:50%; justify-content:center;">
+      <input name="city" type="search" class="search-box form-control" placeholder="Search city..." value="{{ city|default:'' }}">
+    </form>
+
+    <div class="d-flex align-items-center">
+      <ul class="nav me-3">
+        <li class="nav-item"><a class="nav-link text-white" href="{% url 'weather:home' %}">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="{% url 'weather:forecast' %}">Forecast</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="{% url 'weather:map' %}">Live Map</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="{% url 'weather:lifestyle' %}">Lifestyle</a></li>
+      </ul>
+
+      <div class="dropdown">
+        <a class="text-white dropdown-toggle" href="#" role="button" id="accDrop" data-bs-toggle="dropdown">Account</a>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accDrop" style="background:rgba(10,20,40,0.9);">
+          <li><a class="dropdown-item text-white" href="{% url 'weather:register' %}">Register</a></li>
+          <li><a class="dropdown-item text-white" href="{% url 'weather:login' %}">Login</a></li>
+          <li><a class="dropdown-item text-white" href="{% url 'weather:logout' %}">Logout</a></li>
+          <li><a class="dropdown-item text-white" href="{% url 'weather:forgot' %}">Forgot Password</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <main class="main-wrap container">
+    <div class="row gy-4">
+      <div class="col-lg-6">
+        <div class="glass p-4">
+          <div class="d-flex justify-content-between align-items-start">
+            <div>
+              <h2 class="mb-1">{{ city|default:"Korangi" }}, {{ country|default:"PK" }}</h2>
+              <div class="small text-muted">{{ date|default:now }}</div>
+              <div class="mt-2">
+                <div class="h1 mb-0">{{ current.temp|default:"--" }}°C</div>
+                <div class="text-muted">{{ current.desc|default:"--" }}</div>
+              </div>
+            </div>
+
+            <div class="text-center">
+              <lottie-player src="{% static 'weather/animations/girl-weather.json' %}"  background="transparent"  speed="1"  style="width:140px; height:140px;"  loop  autoplay></lottie-player>
+              <div><img src="https://openweathermap.org/img/wn/{{ current.icon }}@2x.png" alt="icon" class="weather-icon"></div>
+            </div>
+          </div>
+
+          <hr>
+
+          <h6 class="mb-2">Hourly (24h)</h6>
+          <div id="hourly-scroll" class="h-scroll">
+            {% for h in hourly %}
+              <div class="hour-card">
+                <div class="small text-muted">{{ h.dt|date:"H:i" }}</div>
+                <img src="https://openweathermap.org/img/wn/{{ h.weather.0.icon }}.png" alt="" style="width:44px">
+                <div style="font-weight:600">{{ h.temp|floatformat:0 }}°</div>
+              </div>
+            {% empty %}
+              <div class="hour-card"><div class="small text-muted">--:--</div><div style="font-size:18px">--°</div></div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <!-- 15-day -->
+        <div class="glass p-3 mt-4">
+          <h6>15-Day Forecast</h6>
+          <div id="days-scroll" class="h-scroll mt-2">
+            {% for d in daily %}
+              <div class="day-card">
+                <div class="small text-muted">{{ d.dt|date:"D, d M" }}</div>
+                <img src="https://openweathermap.org/img/wn/{{ d.weather.0.icon }}.png" style="width:44px">
+                <div style="font-weight:600">{{ d.temp.day|floatformat:0 }}°</div>
+              </div>
+            {% empty %}
+              <div class="day-card"><div class="small text-muted">—</div><div>—°</div></div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="row mt-4 g-3">
+          <div class="col-6">
+            <div class="glass p-3">
+              <h6>Sunrise / Sunset</h6>
+              <p class="mb-0">Sunrise: <strong>{{ current.sunrise }}</strong></p>
+              <p class="mb-0">Sunset: <strong>{{ current.sunset }}</strong></p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="glass p-3">
+              <h6>Lifestyle</h6>
+              <p class="mb-1">Humidity: <strong>{{ current.humidity }}%</strong></p>
+              <p class="mb-1">Wind: <strong>{{ current.wind }} m/s</strong></p>
+              <p class="mb-0">Feels like / UV — OneCall provides more data</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="glass p-3">
+          <h6>Live Weather Map</h6>
+          <div id="map"></div>
+
+          <div class="d-flex gap-2 align-items-center mt-3">
+            <select id="map-layer" class="form-select form-select-sm w-auto">
+              <option value="temp_new">Temperature</option>
+              <option value="precipitation_new">Precipitation</option>
+              <option value="pressure_new">Pressure</option>
+              <option value="wind_new">Wind</option>
+              <option value="clouds_new">Clouds</option>
+            </select>
+            <button id="center-my-location" class="btn btn-outline-light btn-sm ms-auto">My Location</button>
+          </div>
+        </div>
+
+        <div class="glass p-3 mt-3 text-center">
+          <small>Powered by OpenWeatherMap · Map tiles: OpenStreetMap</small>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="glass-footer">
+    <div>© {{ now.year }} ClimateApp — Live weather & forecast. Built with ❤️</div>
+  </div>
+
+</body>
+</html> {% endcomment %} {% endcomment %} {% endcomment %}
