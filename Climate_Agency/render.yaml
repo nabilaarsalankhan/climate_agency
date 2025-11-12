@@ -10,4 +10,4 @@ services:
         value: 3.12.3
       - key: DJANGO_SETTINGS_MODULE
         value: Climate_Agency.settings
-
+      
