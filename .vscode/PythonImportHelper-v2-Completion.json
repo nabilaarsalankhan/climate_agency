@@ -831,6 +831,15 @@
         "documentation": {}
     },
     {
+        "label": "mongoengine",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
         "label": "connect",
         "importPath": "mongoengine",
         "description": "mongoengine",
@@ -1182,7 +1191,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nload_dotenv(BASE_DIR / '.env')\nSECRET_KEY = os.getenv(\"django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb\")\nDEBUG = os.getenv('DEBUG', 'False') == 'True'\nALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"\").split(\",\")\nALLOWED_HOSTS = ['climate-eshal-fatima-app.onrender.com', 'localhost']\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\n# SECRET_KEY = 'django-insecure-846kbei@h6@=2n4fmiqf%o^-*4ha!-fexbkdi=60_@(h!%6m70'",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nload_dotenv(BASE_DIR / '.env')\nmongoengine.connect(host=os.getenv(\"MONGO_URI\", \"mongodb://localhost:27017/climate_agency_db\"))\nSECRET_KEY = os.getenv(\"django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb\")\nDEBUG = os.getenv('DEBUG', 'False') == 'True'\nALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"\").split(\",\")\nALLOWED_HOSTS = ['climate-eshal-fatima-app.onrender.com', 'localhost']\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },

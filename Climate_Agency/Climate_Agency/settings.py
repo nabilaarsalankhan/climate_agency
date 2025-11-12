@@ -7,6 +7,7 @@ from pathlib import Path
 from pathlib import Path
 from pymongo import MongoClient
 import dj_database_url
+import mongoengine
 from mongoengine import connect
 from dotenv import load_dotenv
 load_dotenv()   
@@ -34,7 +35,7 @@ https://docs.djangoproject.com/en/5.2.5/ref/settings/
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / '.env')
-
+mongoengine.connect(host=os.getenv("MONGO_URI", "mongodb://localhost:27017/climate_agency_db"))
 
 
 SECRET_KEY = os.getenv("django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb")
