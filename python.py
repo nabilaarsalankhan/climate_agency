@@ -23,6 +23,7 @@
 # # If 'fetch_open_meteo.py' is inside 'Climate_Agency/climate_data/utils', use:
 # from Climate_Agency.climate_data.utils.fetch_open_meteo import fetch_open_meteo
 
+
 # # ✅ Run it
 # dataset, data = fetch_open_meteo((24.8607, 67.0011))  # Karachi coordinates
 # print(data)

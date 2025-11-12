@@ -2,7 +2,11 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib import messages
-
+from django.contrib.auth.models import User
+from django.http import HttpResponse
+# from .documents import CustomUser
+from .views import index 
+from climate_data.views import index
 # Register view
 def register_view(request):
     if request.method == 'POST':
@@ -52,3 +56,15 @@ def logout_view(request):
 
 def dashboard_view(request):
     ...
+accounts/views.py (example)
+
+
+def create_user(request):
+    user = CustomUser(username="arsalan", email="arsalan@mail.com", country="Pakistan")
+    user.save()
+    return HttpResponse(f"User {user.username} saved successfully!")
+
+def list_users(request):
+    users = CustomUser.objects()
+    result = ", ".join([user.username for user in users])
+    return HttpResponse(f"Users: {result}")

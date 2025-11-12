@@ -1,7 +1,22 @@
+from django.http import HttpResponse
+from .models import User  # Django model linked to database
 import requests
 from django.shortcuts import render
+from .models import User  # Your model
+from .views import index 
+from climate_data.views import index
 
 API_KEY = "bedfaf1716027c9c280859ad56670795"  # 🔹 apna key yahan dalna
+
+
+def hello(request):
+    return HttpResponse("Hello Nabela!")
+
+def add_user(request):
+    user = User(name="Nabela", age=23)
+    user.save()  # Saves to the database configured in Django settings
+    return HttpResponse("User added!")
+
 
 def index(request):
     city = request.GET.get("city", "Karachi")  # default city
@@ -31,3 +46,17 @@ def index(request):
         context = {"error": str(e), "city": city}
 
     return render(request, "climate_data/index.html", context)
+
+
+def index(request):
+    users = User.objects.all()  # Get all users from database
+    context = {
+        'message': 'Hello from Django!',
+        'users': users
+    }
+    return render(request, 'my-app/index.html', context)
+
+from django.shortcuts import render
+def index(request):
+    return render(request, 'climate_data/index.html')  
+

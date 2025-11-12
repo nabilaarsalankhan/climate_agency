@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecome.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Climate_Agency.Climate_Agency.settings')
 
 application = get_wsgi_application()

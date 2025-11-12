@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: climate-eshal-fatima-app
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn Climate_Agency.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3
+      - key: DJANGO_SETTINGS_MODULE
+        value: Climate_Agency.settings
+

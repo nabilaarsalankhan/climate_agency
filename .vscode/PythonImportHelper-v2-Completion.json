@@ -1,168 +1,26 @@
 [
     {
-        "label": "os",
-        "kind": 6,
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "detail": "pymongo",
         "documentation": {}
     },
     {
-        "label": "django",
-        "kind": 6,
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
         "isExtraImport": true,
-        "importPath": "django",
-        "description": "django",
-        "detail": "django",
+        "detail": "pymongo",
         "documentation": {}
     },
     {
-        "label": "requests",
-        "kind": 6,
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
         "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
-        "documentation": {}
-    },
-    {
-        "label": "django.utils.timezone",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.utils.timezone",
-        "description": "django.utils.timezone",
-        "detail": "django.utils.timezone",
-        "documentation": {}
-    },
-    {
-        "label": "now",
-        "importPath": "django.utils.timezone",
-        "description": "django.utils.timezone",
-        "isExtraImport": true,
-        "detail": "django.utils.timezone",
-        "documentation": {}
-    },
-    {
-        "label": "now",
-        "importPath": "django.utils.timezone",
-        "description": "django.utils.timezone",
-        "isExtraImport": true,
-        "detail": "django.utils.timezone",
-        "documentation": {}
-    },
-    {
-        "label": "now",
-        "importPath": "django.utils.timezone",
-        "description": "django.utils.timezone",
-        "isExtraImport": true,
-        "detail": "django.utils.timezone",
-        "documentation": {}
-    },
-    {
-        "label": "get_user_model",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "login",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "logout",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_user_model",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_user_model",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "ClimateDataSource",
-        "importPath": "Climate_Agency.climate_data.models",
-        "description": "Climate_Agency.climate_data.models",
-        "isExtraImport": true,
-        "detail": "Climate_Agency.climate_data.models",
-        "documentation": {}
-    },
-    {
-        "label": "ClimateDataset",
-        "importPath": "Climate_Agency.climate_data.models",
-        "description": "Climate_Agency.climate_data.models",
-        "isExtraImport": true,
-        "detail": "Climate_Agency.climate_data.models",
-        "documentation": {}
-    },
-    {
-        "label": "django.contrib.auth.models",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "AbstractUser",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "django.contrib.auth.validators",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.contrib.auth.validators",
-        "description": "django.contrib.auth.validators",
-        "detail": "django.contrib.auth.validators",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
@@ -198,11 +56,67 @@
         "documentation": {}
     },
     {
-        "label": "UserAdmin",
-        "importPath": "django.contrib.auth.admin",
-        "description": "django.contrib.auth.admin",
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.admin",
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -223,20 +137,58 @@
     },
     {
         "label": "models",
-        "kind": 6,
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "importPath": "models",
-        "description": "models",
-        "detail": "models",
+        "detail": "django.db",
         "documentation": {}
     },
     {
-        "label": "views",
-        "kind": 6,
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "importPath": "views",
-        "description": "views",
-        "detail": "views",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
         "documentation": {}
     },
     {
@@ -253,6 +205,38 @@
         "description": "django.test",
         "isExtraImport": true,
         "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -312,19 +296,142 @@
         "documentation": {}
     },
     {
-        "label": "UserCreationForm",
-        "importPath": "django.contrib.auth.forms",
-        "description": "django.contrib.auth.forms",
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.forms",
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
-        "label": "AuthenticationForm",
-        "importPath": "django.contrib.auth.forms",
-        "description": "django.contrib.auth.forms",
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.forms",
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "isExtraImport": true,
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "isExtraImport": true,
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "isExtraImport": true,
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "importPath": "django.contrib.auth.admin",
+        "description": "django.contrib.auth.admin",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "importPath": "django.contrib.auth.admin",
+        "description": "django.contrib.auth.admin",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -392,6 +499,182 @@
         "documentation": {}
     },
     {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "importPath": "climate_data.views",
+        "description": "climate_data.views",
+        "isExtraImport": true,
+        "detail": "climate_data.views",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "importPath": "climate_data.views",
+        "description": "climate_data.views",
+        "isExtraImport": true,
+        "detail": "climate_data.views",
+        "documentation": {}
+    },
+    {
         "label": "views",
         "importPath": "Climate_Agency",
         "description": "Climate_Agency",
@@ -401,6 +684,14 @@
     },
     {
         "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
         "importPath": "rest_framework",
         "description": "rest_framework",
         "isExtraImport": true,
@@ -432,6 +723,32 @@
         "documentation": {}
     },
     {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "get_asgi_application",
         "importPath": "django.core.asgi",
         "description": "django.core.asgi",
@@ -440,12 +757,28 @@
         "documentation": {}
     },
     {
-        "label": "sys",
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "django",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
+        "importPath": "django",
+        "description": "django",
+        "detail": "django",
         "documentation": {}
     },
     {
@@ -457,11 +790,68 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
         "isExtraImport": true,
-        "detail": "django.conf",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
+        "label": "connect",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -489,14 +879,6 @@
         "documentation": {}
     },
     {
-        "label": "JsonResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -513,20 +895,79 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "djongo",
-        "description": "djongo",
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
         "isExtraImport": true,
-        "detail": "djongo",
+        "detail": "django.core.wsgi",
         "documentation": {}
     },
     {
-        "label": "fetch_open_meteo",
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "types,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "types.",
+        "description": "types.",
+        "detail": "types.",
+        "documentation": {}
+    },
+    {
+        "label": "execute_from_command_line",
+        "importPath": "django.core.management",
+        "description": "django.core.management",
+        "isExtraImport": true,
+        "detail": "django.core.management",
+        "documentation": {}
+    },
+    {
+        "label": "test_mongo_connection",
         "kind": 2,
         "importPath": ".vscode.test_mongo",
         "description": ".vscode.test_mongo",
-        "peekOfCode": "def fetch_open_meteo(city_coords):\n    lat, lon = city_coords\n    url = \"https://api.open-meteo.com/v1/forecast\"\n    params = {\n        \"latitude\": lat,\n        \"longitude\": lon,\n        \"current_weather\": \"true\",\n        \"hourly\": \"temperature_2m,relative_humidity_2m,wind_speed_10m\"\n    }\n    resp = requests.get(url, params=params).json()",
+        "peekOfCode": "def test_mongo_connection():\n    try:\n        client = MongoClient(\"mongodb://localhost:27017/\")\n        db_list = client.list_database_names()\n        print(\"✅ MongoDB Connection Successful!\")\n        print(\"Databases:\", db_list)\n    except Exception as e:\n        print(\"❌ MongoDB Connection Failed:\", e)",
         "detail": ".vscode.test_mongo",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "accounts.apps",
+        "description": "accounts.apps",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accounts'",
+        "detail": "accounts.apps",
         "documentation": {}
     },
     {
@@ -561,8 +1002,17 @@
         "kind": 6,
         "importPath": "Climate_Agency.accounts.models",
         "description": "Climate_Agency.accounts.models",
-        "peekOfCode": "class CustomUser(AbstractUser):\n    email = models.EmailField(unique=True)\n    country = models.CharField(max_length=100, null=True, blank=True)\n    def __str__(self):\n        return self.username\n        pass",
+        "peekOfCode": "class CustomUser(AbstractUser):\n    # add extra fields if needed\n    pass",
         "detail": "Climate_Agency.accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "Climate_Agency.accounts.urls",
+        "description": "Climate_Agency.accounts.urls",
+        "peekOfCode": "urlpatterns = [\n    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),\n    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n]\nurlpatterns += [\n    path('register/', views.register_view, name='register'),\n    path('login/', views.login_view, name='login'),\n    path('logout/', views.logout_view, name='logout'),\n    path('dashboard/', views.dashboard_view, name='dashboard'),\n]",
+        "detail": "Climate_Agency.accounts.urls",
         "documentation": {}
     },
     {
@@ -606,7 +1056,7 @@
         "kind": 2,
         "importPath": "Climate_Agency.accounts.views",
         "description": "Climate_Agency.accounts.views",
-        "peekOfCode": "def register_view(request):\n    ...\ndef login_view(request):\n    ...\ndef logout_view(request):\n    ...\ndef dashboard_view(request):\n    ...",
+        "peekOfCode": "def register_view(request):\n    ...\ndef login_view(request):\n    ...\ndef logout_view(request):\n    ...\ndef dashboard_view(request):\n    ...\naccounts/views.py (example)\ndef create_user(request):",
         "detail": "Climate_Agency.accounts.views",
         "documentation": {}
     },
@@ -615,7 +1065,7 @@
         "kind": 2,
         "importPath": "Climate_Agency.accounts.views",
         "description": "Climate_Agency.accounts.views",
-        "peekOfCode": "def login_view(request):\n    ...\ndef logout_view(request):\n    ...\ndef dashboard_view(request):\n    ...",
+        "peekOfCode": "def login_view(request):\n    ...\ndef logout_view(request):\n    ...\ndef dashboard_view(request):\n    ...\naccounts/views.py (example)\ndef create_user(request):\n    user = CustomUser(username=\"arsalan\", email=\"arsalan@mail.com\", country=\"Pakistan\")\n    user.save()",
         "detail": "Climate_Agency.accounts.views",
         "documentation": {}
     },
@@ -624,7 +1074,7 @@
         "kind": 2,
         "importPath": "Climate_Agency.accounts.views",
         "description": "Climate_Agency.accounts.views",
-        "peekOfCode": "def logout_view(request):\n    ...\ndef dashboard_view(request):\n    ...",
+        "peekOfCode": "def logout_view(request):\n    ...\ndef dashboard_view(request):\n    ...\naccounts/views.py (example)\ndef create_user(request):\n    user = CustomUser(username=\"arsalan\", email=\"arsalan@mail.com\", country=\"Pakistan\")\n    user.save()\n    return HttpResponse(f\"User {user.username} saved successfully!\")\ndef list_users(request):",
         "detail": "Climate_Agency.accounts.views",
         "documentation": {}
     },
@@ -633,7 +1083,25 @@
         "kind": 2,
         "importPath": "Climate_Agency.accounts.views",
         "description": "Climate_Agency.accounts.views",
-        "peekOfCode": "def dashboard_view(request):\n    ...",
+        "peekOfCode": "def dashboard_view(request):\n    ...\naccounts/views.py (example)\ndef create_user(request):\n    user = CustomUser(username=\"arsalan\", email=\"arsalan@mail.com\", country=\"Pakistan\")\n    user.save()\n    return HttpResponse(f\"User {user.username} saved successfully!\")\ndef list_users(request):\n    users = CustomUser.objects()\n    result = \", \".join([user.username for user in users])",
+        "detail": "Climate_Agency.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "Climate_Agency.accounts.views",
+        "description": "Climate_Agency.accounts.views",
+        "peekOfCode": "def create_user(request):\n    user = CustomUser(username=\"arsalan\", email=\"arsalan@mail.com\", country=\"Pakistan\")\n    user.save()\n    return HttpResponse(f\"User {user.username} saved successfully!\")\ndef list_users(request):\n    users = CustomUser.objects()\n    result = \", \".join([user.username for user in users])\n    return HttpResponse(f\"Users: {result}\")",
+        "detail": "Climate_Agency.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "list_users",
+        "kind": 2,
+        "importPath": "Climate_Agency.accounts.views",
+        "description": "Climate_Agency.accounts.views",
+        "peekOfCode": "def list_users(request):\n    users = CustomUser.objects()\n    result = \", \".join([user.username for user in users])\n    return HttpResponse(f\"Users: {result}\")",
         "detail": "Climate_Agency.accounts.views",
         "documentation": {}
     },
@@ -642,7 +1110,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.__pycache__.urls",
         "description": "Climate_Agency.Climate_Agency.__pycache__.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', views.home, name='home'),\n    path('index/', views.index, name='index'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('climate/', include('climate_data.urls')), \n    path('dashboard/', views.dashboard, name='dashboard'),\n    path('accounts/', views.accounts, name='accounts'),\n    path('my-ap/', views.my_ap, name='my_ap'),\n]",
         "detail": "Climate_Agency.Climate_Agency.__pycache__.urls",
         "documentation": {}
     },
@@ -674,47 +1142,11 @@
         "documentation": {}
     },
     {
-        "label": "project_path",
-        "kind": 5,
+        "label": "fetch_open_meteo",
+        "kind": 2,
         "importPath": "Climate_Agency.Climate_Agency.fetch_open_meteo",
         "description": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "peekOfCode": "project_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Climate_Agency'))\nsys.path.insert(0, project_path)\n# ---------- Set Django settings ----------\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Climate_Agency.settings')\ndjango.setup()\n# ---------- Import your function ----------\ntry:\n\tfrom Climate_Agency.climate_data.utils.fetch_open_meteo import fetch_open_meteo\nexcept Exception:\n\t# Fallback: load the module directly from its file in case package imports fail",
-        "detail": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "documentation": {}
-    },
-    {
-        "label": "\tmodule_path",
-        "kind": 5,
-        "importPath": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "description": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "peekOfCode": "\tmodule_path = os.path.join(project_path, 'Climate_Agency', 'climate_data', 'utils', 'fetch_open_meteo.py')\n\tspec = importlib.util.spec_from_file_location(\"fetch_open_meteo_module\", module_path)\n\tif spec is None or spec.loader is None:\n\t\traise ImportError(f\"Could not load module from {module_path}\")\n\tfetch_mod = importlib.util.module_from_spec(spec)\n\tspec.loader.exec_module(fetch_mod)\n\tfetch_open_meteo = getattr(fetch_mod, 'fetch_open_meteo')\n# Karachi coordinates\ndataset, data = fetch_open_meteo((24.8607, 67.0011))\nprint(data)",
-        "detail": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "documentation": {}
-    },
-    {
-        "label": "\tspec",
-        "kind": 5,
-        "importPath": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "description": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "peekOfCode": "\tspec = importlib.util.spec_from_file_location(\"fetch_open_meteo_module\", module_path)\n\tif spec is None or spec.loader is None:\n\t\traise ImportError(f\"Could not load module from {module_path}\")\n\tfetch_mod = importlib.util.module_from_spec(spec)\n\tspec.loader.exec_module(fetch_mod)\n\tfetch_open_meteo = getattr(fetch_mod, 'fetch_open_meteo')\n# Karachi coordinates\ndataset, data = fetch_open_meteo((24.8607, 67.0011))\nprint(data)",
-        "detail": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "documentation": {}
-    },
-    {
-        "label": "\tfetch_mod",
-        "kind": 5,
-        "importPath": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "description": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "peekOfCode": "\tfetch_mod = importlib.util.module_from_spec(spec)\n\tspec.loader.exec_module(fetch_mod)\n\tfetch_open_meteo = getattr(fetch_mod, 'fetch_open_meteo')\n# Karachi coordinates\ndataset, data = fetch_open_meteo((24.8607, 67.0011))\nprint(data)",
-        "detail": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "documentation": {}
-    },
-    {
-        "label": "\tfetch_open_meteo",
-        "kind": 5,
-        "importPath": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "description": "Climate_Agency.Climate_Agency.fetch_open_meteo",
-        "peekOfCode": "\tfetch_open_meteo = getattr(fetch_mod, 'fetch_open_meteo')\n# Karachi coordinates\ndataset, data = fetch_open_meteo((24.8607, 67.0011))\nprint(data)",
+        "peekOfCode": "def fetch_open_meteo(city_coords):\n    lat, lon = city_coords\n    url = \"https://api.open-meteo.com/v1/forecast\"\n    params = {\n        \"latitude\": lat,\n        \"longitude\": lon,\n        \"current_weather\": \"true\",\n        \"hourly\": \"temperature_2m,relative_humidity_2m,wind_speed_10m\"\n    }\n    resp = requests.get(url, params=params).json()",
         "detail": "Climate_Agency.Climate_Agency.fetch_open_meteo",
         "documentation": {}
     },
@@ -732,7 +1164,16 @@
         "kind": 6,
         "importPath": "Climate_Agency.Climate_Agency.serializers",
         "description": "Climate_Agency.Climate_Agency.serializers",
-        "peekOfCode": "class ClimateDatasetSerializer(serializers.ModelSerializer):\n    source = ClimateDataSourceSerializer(read_only=True)\n    uploaded_by = serializers.StringRelatedField(read_only=True)\n    class Meta:\n        model = ClimateDataset\n        fields = '__all__'",
+        "peekOfCode": "class ClimateDatasetSerializer(serializers.ModelSerializer):\n    source = ClimateDataSourceSerializer(read_only=True)\n    uploaded_by = serializers.StringRelatedField(read_only=True)\n    class Meta:\n        model = ClimateDataset\n        fields = '__all__'\nclass ClimateRecordSerializer(serializers.ModelSerializer):\n   class Meta:\n     model = ClimateRecord\n     fields = '__all__'  # send all fields as JSON",
+        "detail": "Climate_Agency.Climate_Agency.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ClimateRecordSerializer",
+        "kind": 6,
+        "importPath": "Climate_Agency.Climate_Agency.serializers",
+        "description": "Climate_Agency.Climate_Agency.serializers",
+        "peekOfCode": "class ClimateRecordSerializer(serializers.ModelSerializer):\n   class Meta:\n     model = ClimateRecord\n     fields = '__all__'  # send all fields as JSON",
         "detail": "Climate_Agency.Climate_Agency.serializers",
         "documentation": {}
     },
@@ -741,7 +1182,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent \n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-846kbei@h6@=2n4fmiqf%o^-*4ha!-fexbkdi=60_@(h!%6m70'\n# SECURITY WARNING: don't run with debug turned on in production!\nSECRET_KEY = os.getenv('SECRET_KEY', 'your-secret-key')\nDEBUG = os.getenv('DEBUG', 'True') == 'True'\nALLOWED_HOSTS = ['*']\n# Application definition",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nload_dotenv(BASE_DIR / '.env')\nSECRET_KEY = os.getenv(\"django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb\")\nDEBUG = os.getenv('DEBUG', 'False') == 'True'\nALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"\").split(\",\")\nALLOWED_HOSTS = ['climate-eshal-fatima-app.onrender.com', 'localhost']\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\n# SECRET_KEY = 'django-insecure-846kbei@h6@=2n4fmiqf%o^-*4ha!-fexbkdi=60_@(h!%6m70'",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -750,16 +1191,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-846kbei@h6@=2n4fmiqf%o^-*4ha!-fexbkdi=60_@(h!%6m70'\n# SECURITY WARNING: don't run with debug turned on in production!\nSECRET_KEY = os.getenv('SECRET_KEY', 'your-secret-key')\nDEBUG = os.getenv('DEBUG', 'True') == 'True'\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'accounts',\n    'django.contrib.admin',\n    'django.contrib.auth',",
-        "detail": "Climate_Agency.Climate_Agency.settings",
-        "documentation": {}
-    },
-    {
-        "label": "SECRET_KEY",
-        "kind": 5,
-        "importPath": "Climate_Agency.Climate_Agency.settings",
-        "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "SECRET_KEY = os.getenv('SECRET_KEY', 'your-secret-key')\nDEBUG = os.getenv('DEBUG', 'True') == 'True'\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'accounts',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb\")\nDEBUG = os.getenv('DEBUG', 'False') == 'True'\nALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"\").split(\",\")\nALLOWED_HOSTS = ['climate-eshal-fatima-app.onrender.com', 'localhost']\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\n# SECRET_KEY = 'django-insecure-846kbei@h6@=2n4fmiqf%o^-*4ha!-fexbkdi=60_@(h!%6m70'\n# SECURITY WARNING: don't run with debug turned on in production!\n# SECRET_KEY = os.getenv('django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb', 'django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb')",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -768,7 +1200,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "DEBUG = os.getenv('DEBUG', 'True') == 'True'\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'accounts',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "DEBUG = os.getenv('DEBUG', 'False') == 'True'\nALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"\").split(\",\")\nALLOWED_HOSTS = ['climate-eshal-fatima-app.onrender.com', 'localhost']\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\n# SECRET_KEY = 'django-insecure-846kbei@h6@=2n4fmiqf%o^-*4ha!-fexbkdi=60_@(h!%6m70'\n# SECURITY WARNING: don't run with debug turned on in production!\n# SECRET_KEY = os.getenv('django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb', 'django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb')\n# DEBUG = os.getenv('DEBUG', 'True') == 'True'",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -777,7 +1209,16 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'accounts',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"\").split(\",\")\nALLOWED_HOSTS = ['climate-eshal-fatima-app.onrender.com', 'localhost']\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\n# SECRET_KEY = 'django-insecure-846kbei@h6@=2n4fmiqf%o^-*4ha!-fexbkdi=60_@(h!%6m70'\n# SECURITY WARNING: don't run with debug turned on in production!\n# SECRET_KEY = os.getenv('django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb', 'django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb')\n# DEBUG = os.getenv('DEBUG', 'True') == 'True'",
+        "detail": "Climate_Agency.Climate_Agency.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "Climate_Agency.Climate_Agency.settings",
+        "description": "Climate_Agency.Climate_Agency.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['climate-eshal-fatima-app.onrender.com', 'localhost']\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\n# SECRET_KEY = 'django-insecure-846kbei@h6@=2n4fmiqf%o^-*4ha!-fexbkdi=60_@(h!%6m70'\n# SECURITY WARNING: don't run with debug turned on in production!\n# SECRET_KEY = os.getenv('django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb', 'django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb')\n# DEBUG = os.getenv('DEBUG', 'True') == 'True'\n# ALLOWED_HOSTS = ['127.0.0.1,localhost']",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -786,16 +1227,16 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'accounts',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'weather',\n    'dashboard',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'rest_framework',\n    'rest_framework_simplejwt',\n    'accounts',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
     {
-        "label": "AUTH_USER_MODEL",
+        "label": "REST_FRAMEWORK",
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "AUTH_USER_MODEL = 'accounts.CustomUser'\nMIDDLEWARE = [\n     'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),\n    'DEFAULT_PERMISSION_CLASSES': (\n        'rest_framework.permissions.IsAuthenticated',\n    )\n}\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -804,7 +1245,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "MIDDLEWARE = [\n     'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'Climate_Agency.urls'",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'Climate_Agency.urls'",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -813,7 +1254,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "ROOT_URLCONF = 'Climate_Agency.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'Climate_Agency' / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "peekOfCode": "ROOT_URLCONF = 'Climate_Agency.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -822,7 +1263,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'Climate_Agency' / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -831,7 +1272,34 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'Climate_Agency.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }\n# }\nDATABASES = {",
+        "peekOfCode": "WSGI_APPLICATION = 'Climate_Agency.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }\n# }\n# MONGO_DB_NAME = os.getenv('climate_agency_db')",
+        "detail": "Climate_Agency.Climate_Agency.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_NAME",
+        "kind": 5,
+        "importPath": "Climate_Agency.Climate_Agency.settings",
+        "description": "Climate_Agency.Climate_Agency.settings",
+        "peekOfCode": "DATABASE_NAME = os.getenv('DATABASE_NAME', 'climate_agency_db')\nDATABASE_USER = os.getenv('DATABASE_USER', 'Syeda Nabela Shah')\nMONGO_URI = os.getenv('MONGO_URI', 'mongodb://localhost:27017/climate_agency_db')\nDATABASES = {\n    'default': {\n        'ENGINE':'djongo',\n        'NAME':'climate_agency_db',  # your database name\n        'ENFORCE_SCHEMA': False,\n        'CLIENT':{\n            # 'host':'mongodb://localhost:27017',",
+        "detail": "Climate_Agency.Climate_Agency.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_USER",
+        "kind": 5,
+        "importPath": "Climate_Agency.Climate_Agency.settings",
+        "description": "Climate_Agency.Climate_Agency.settings",
+        "peekOfCode": "DATABASE_USER = os.getenv('DATABASE_USER', 'Syeda Nabela Shah')\nMONGO_URI = os.getenv('MONGO_URI', 'mongodb://localhost:27017/climate_agency_db')\nDATABASES = {\n    'default': {\n        'ENGINE':'djongo',\n        'NAME':'climate_agency_db',  # your database name\n        'ENFORCE_SCHEMA': False,\n        'CLIENT':{\n            # 'host':'mongodb://localhost:27017',\n             'host': os.environ.get('MONGODB_URI', 'mongodb://localhost:27017/climate_agency_db'),",
+        "detail": "Climate_Agency.Climate_Agency.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "Climate_Agency.Climate_Agency.settings",
+        "description": "Climate_Agency.Climate_Agency.settings",
+        "peekOfCode": "MONGO_URI = os.getenv('MONGO_URI', 'mongodb://localhost:27017/climate_agency_db')\nDATABASES = {\n    'default': {\n        'ENGINE':'djongo',\n        'NAME':'climate_agency_db',  # your database name\n        'ENFORCE_SCHEMA': False,\n        'CLIENT':{\n            # 'host':'mongodb://localhost:27017',\n             'host': os.environ.get('MONGODB_URI', 'mongodb://localhost:27017/climate_agency_db'),\n         }",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -840,25 +1308,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'djongo',\n        'NAME': 'climate_agency_db',  # your database name\n        'ENFORCE_SCHEMA': False,\n        'CLIENT': {\n            'host': 'mongodb://localhost:27017',\n         }\n    }\n}",
-        "detail": "Climate_Agency.Climate_Agency.settings",
-        "documentation": {}
-    },
-    {
-        "label": "apps",
-        "kind": 5,
-        "importPath": "Climate_Agency.Climate_Agency.settings",
-        "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "apps = settings.INSTALLED_APPS\nduplicates = [app for app in apps if apps.count(app) > 1]\nprint(set(duplicates))\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},\n    {'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator'},\n    {'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator'},\n    {'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator'},",
-        "detail": "Climate_Agency.Climate_Agency.settings",
-        "documentation": {}
-    },
-    {
-        "label": "duplicates",
-        "kind": 5,
-        "importPath": "Climate_Agency.Climate_Agency.settings",
-        "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "duplicates = [app for app in apps if apps.count(app) > 1]\nprint(set(duplicates))\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},\n    {'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator'},\n    {'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator'},\n    {'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator'},\n]",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE':'djongo',\n        'NAME':'climate_agency_db',  # your database name\n        'ENFORCE_SCHEMA': False,\n        'CLIENT':{\n            # 'host':'mongodb://localhost:27017',\n             'host': os.environ.get('MONGODB_URI', 'mongodb://localhost:27017/climate_agency_db'),\n         }\n    }",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -876,7 +1326,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'weather' / \"static\"]\n# TEMPLATES[0]['DIRS'] = [BASE_DIR / 'templates']",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static.files(CSS,JavaScript,Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [BASE_DIR / 'Climate_Agency' / \"static\"]\n# TEMPLATES[0]['DIRS'] = [BASE_DIR / 'Climate_Agency'/ 'templates']",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -885,7 +1335,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'weather' / \"static\"]\n# TEMPLATES[0]['DIRS'] = [BASE_DIR / 'templates']\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static.files(CSS,JavaScript,Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [BASE_DIR / 'Climate_Agency' / \"static\"]\n# TEMPLATES[0]['DIRS'] = [BASE_DIR / 'Climate_Agency'/ 'templates']\n# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -894,7 +1344,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'weather' / \"static\"]\n# TEMPLATES[0]['DIRS'] = [BASE_DIR / 'templates']\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static.files(CSS,JavaScript,Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [BASE_DIR / 'Climate_Agency' / \"static\"]\n# TEMPLATES[0]['DIRS'] = [BASE_DIR / 'Climate_Agency'/ 'templates']\n# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -903,7 +1353,16 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'weather' / \"static\"]\n# TEMPLATES[0]['DIRS'] = [BASE_DIR / 'templates']\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# OPENClimate_Agency_API_KEY = 'bedfaf1716027c9c280859ad56670795'\n# Default primary key field type",
+        "peekOfCode": "USE_TZ = True\n# Static.files(CSS,JavaScript,Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [BASE_DIR / 'Climate_Agency' / \"static\"]\n# TEMPLATES[0]['DIRS'] = [BASE_DIR / 'Climate_Agency'/ 'templates']\n# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Default primary key field type",
+        "detail": "Climate_Agency.Climate_Agency.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "Climate_Agency.Climate_Agency.settings",
+        "description": "Climate_Agency.Climate_Agency.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [BASE_DIR / 'Climate_Agency' / \"static\"]\n# TEMPLATES[0]['DIRS'] = [BASE_DIR / 'Climate_Agency'/ 'templates']\n# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -912,25 +1371,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.settings",
         "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'weather' / \"static\"]\n# TEMPLATES[0]['DIRS'] = [BASE_DIR / 'templates']\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# OPENClimate_Agency_API_KEY = 'bedfaf1716027c9c280859ad56670795'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "Climate_Agency.Climate_Agency.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATICFILES_DIRS",
-        "kind": 5,
-        "importPath": "Climate_Agency.Climate_Agency.settings",
-        "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR / 'weather' / \"static\"]\n# TEMPLATES[0]['DIRS'] = [BASE_DIR / 'templates']\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# OPENClimate_Agency_API_KEY = 'bedfaf1716027c9c280859ad56670795'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "Climate_Agency.Climate_Agency.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DEFAULT_AUTO_FIELD",
-        "kind": 5,
-        "importPath": "Climate_Agency.Climate_Agency.settings",
-        "description": "Climate_Agency.Climate_Agency.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# OPENClimate_Agency_API_KEY = 'bedfaf1716027c9c280859ad56670795'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = '/static/'\n# STATICFILES_DIRS = [BASE_DIR / 'Climate_Agency' / \"static\"]\n# TEMPLATES[0]['DIRS'] = [BASE_DIR / 'Climate_Agency'/ 'templates']\n# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "Climate_Agency.Climate_Agency.settings",
         "documentation": {}
     },
@@ -948,7 +1389,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.urls",
         "description": "Climate_Agency.Climate_Agency.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    # path('dashboard/', views.dashboard, name='dashboard'),   # Dashboard\n    path('', include('weather.urls')),# 👈 replace 'yourappname' with your Django app name\n    path('accounts/', include('accounts.urls')),  # Accounts\n    path('dashboard/', include('dashboard.urls')),  # Dashboard\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', views.index, name='climate_data_index'), \n    path('dashboard/', views.dashboard, name='dashboard'),   # Dashboard\n    path('', include('climate_data.urls')),# 👈 replace 'yourappname' with your Django app name\n    path('accounts/', include('accounts.urls')),  # Accounts\n    path('dashboard/', include('dashboard.urls')),  # Dashboard\n]",
         "detail": "Climate_Agency.Climate_Agency.urls",
         "documentation": {}
     },
@@ -966,16 +1407,25 @@
         "kind": 2,
         "importPath": "Climate_Agency.Climate_Agency.views",
         "description": "Climate_Agency.Climate_Agency.views",
-        "peekOfCode": "def index(request):\n    weather_data = None\n    if request.method == 'POST':\n        city = request.POST.get('city')\n        url = f\"{BASE_URL}weather?q={city}&appid={API_KEY}&units=metric\"\n        response = requests.get(url)\n        if response.status_code == 200:\n            weather_data = response.json()\n        else:\n            weather_data = {'error': 'City not found.'}",
+        "peekOfCode": "def index(request):\n    weather_data = None\n    if request.method == 'POST':\n        city = request.POST.get('city')\n        url = f\"{BASE_URL}weather?q={city}&appid={'bedfaf1716027c9c280859ad56670795'}&units=metric\"\n        response = requests.get(url)\n        if response.status_code == 200:\n            weather_data = response.json()\n        else:\n            weather_data = {'error': 'City not found.'}",
         "detail": "Climate_Agency.Climate_Agency.views",
         "documentation": {}
     },
     {
-        "label": "home",
+        "label": "index",
         "kind": 2,
         "importPath": "Climate_Agency.Climate_Agency.views",
         "description": "Climate_Agency.Climate_Agency.views",
-        "peekOfCode": "def home(request):\n    city = request.GET.get(\"city\", \"Karachi\")  # default city\n    weather, hourly, daily = None, [], []\n    error = None\n    try:\n        # ✅ Current weather API call\n        res = requests.get(f\"{BASE_URL}weather?q={city}&units=metric&appid={API_KEY}\").json()\n        if res.get(\"cod\") != 200:\n            error = res.get(\"message\", \"City not found\")\n        else:",
+        "peekOfCode": "def index(request):\n    city = request.GET.get(\"city\", \"Karachi\")  # default city\n    weather, hourly, daily = None, [], []\n    error = None\n    try:\n        # ✅ Current weather API call\n        res = requests.get(f\"{BASE_URL}weather?q={city}&units=metric&appid={'bedfaf1716027c9c280859ad56670795'}\").json()\n        if res.get(\"cod\") != 200:\n            error = res.get(\"message\", \"City not found\")\n        else:",
+        "detail": "Climate_Agency.Climate_Agency.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "Climate_Agency.Climate_Agency.views",
+        "description": "Climate_Agency.Climate_Agency.views",
+        "peekOfCode": "def dashboard(request):\n    return render(request, 'dashboard.html')",
         "detail": "Climate_Agency.Climate_Agency.views",
         "documentation": {}
     },
@@ -984,7 +1434,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.views",
         "description": "Climate_Agency.Climate_Agency.views",
-        "peekOfCode": "API_KEY = 'bedfaf1716027c9c280859ad56670795'\nBASE_URL = 'https://api.openweathermap.org/data/2.5/'\ndef index(request):\n    weather_data = None\n    if request.method == 'POST':\n        city = request.POST.get('city')\n        url = f\"{BASE_URL}weather?q={city}&appid={API_KEY}&units=metric\"\n        response = requests.get(url)\n        if response.status_code == 200:\n            weather_data = response.json()",
+        "peekOfCode": "API_KEY = 'bedfaf1716027c9c280859ad56670795'\nBASE_URL = 'https://api.openweathermap.org/data/2.5/'\ndef index(request):\n    weather_data = None\n    if request.method == 'POST':\n        city = request.POST.get('city')\n        url = f\"{BASE_URL}weather?q={city}&appid={'bedfaf1716027c9c280859ad56670795'}&units=metric\"\n        response = requests.get(url)\n        if response.status_code == 200:\n            weather_data = response.json()",
         "detail": "Climate_Agency.Climate_Agency.views",
         "documentation": {}
     },
@@ -993,7 +1443,7 @@
         "kind": 5,
         "importPath": "Climate_Agency.Climate_Agency.views",
         "description": "Climate_Agency.Climate_Agency.views",
-        "peekOfCode": "BASE_URL = 'https://api.openweathermap.org/data/2.5/'\ndef index(request):\n    weather_data = None\n    if request.method == 'POST':\n        city = request.POST.get('city')\n        url = f\"{BASE_URL}weather?q={city}&appid={API_KEY}&units=metric\"\n        response = requests.get(url)\n        if response.status_code == 200:\n            weather_data = response.json()\n        else:",
+        "peekOfCode": "BASE_URL = 'https://api.openweathermap.org/data/2.5/'\ndef index(request):\n    weather_data = None\n    if request.method == 'POST':\n        city = request.POST.get('city')\n        url = f\"{BASE_URL}weather?q={city}&appid={'bedfaf1716027c9c280859ad56670795'}&units=metric\"\n        response = requests.get(url)\n        if response.status_code == 200:\n            weather_data = response.json()\n        else:",
         "detail": "Climate_Agency.Climate_Agency.views",
         "documentation": {}
     },
@@ -1007,12 +1457,39 @@
         "documentation": {}
     },
     {
+        "label": "ClimateDataAPIView",
+        "kind": 6,
+        "importPath": "Climate_Agency.climate_data.my_app.views",
+        "description": "Climate_Agency.climate_data.my_app.views",
+        "peekOfCode": "class ClimateDataAPIView(APIView):\n    permission_classes = [IsAuthenticated]\n    def get(self, request):\n        data = ClimateRecord.objects.all()\n        serializer = ClimateRecordSerializer(data, many=True)\n        return Response(serializer.data)",
+        "detail": "Climate_Agency.climate_data.my_app.views",
+        "documentation": {}
+    },
+    {
         "label": "urlpatterns",
         "kind": 5,
         "importPath": "Climate_Agency.climate_data.urls",
         "description": "Climate_Agency.climate_data.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"home\"),\n]",
+        "peekOfCode": "urlpatterns = [\n     path('', views.index, name='climate_data_index'), \n     # path('dashboard/', views.dashboard, name='dashboard'),\n     path('api/climate/', ClimateDataAPIView.as_view(), name='climate-api'),\n     path('auth/', include('accounts.urls')),  # JWT endpoints under /auth/\n     path('', include('climate_data.urls')),\n]",
         "detail": "Climate_Agency.climate_data.urls",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "Climate_Agency.climate_data.views",
+        "description": "Climate_Agency.climate_data.views",
+        "peekOfCode": "def hello(request):\n    return HttpResponse(\"Hello Nabela!\")\ndef add_user(request):\n    user = User(name=\"Nabela\", age=23)\n    user.save()  # Saves to the database configured in Django settings\n    return HttpResponse(\"User added!\")\ndef index(request):\n    city = request.GET.get(\"city\", \"Karachi\")  # default city\n    url = f\"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric\"\n    try:",
+        "detail": "Climate_Agency.climate_data.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_user",
+        "kind": 2,
+        "importPath": "Climate_Agency.climate_data.views",
+        "description": "Climate_Agency.climate_data.views",
+        "peekOfCode": "def add_user(request):\n    user = User(name=\"Nabela\", age=23)\n    user.save()  # Saves to the database configured in Django settings\n    return HttpResponse(\"User added!\")\ndef index(request):\n    city = request.GET.get(\"city\", \"Karachi\")  # default city\n    url = f\"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric\"\n    try:\n        response = requests.get(url)\n        data = response.json()",
+        "detail": "Climate_Agency.climate_data.views",
         "documentation": {}
     },
     {
@@ -1025,11 +1502,29 @@
         "documentation": {}
     },
     {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Climate_Agency.climate_data.views",
+        "description": "Climate_Agency.climate_data.views",
+        "peekOfCode": "def index(request):\n    users = User.objects.all()  # Get all users from database\n    context = {\n        'message': 'Hello from Django!',\n        'users': users\n    }\n    return render(request, 'my-app/index.html', context)\nfrom django.shortcuts import render\ndef index(request):\n    return render(request, 'climate_data/index.html')",
+        "detail": "Climate_Agency.climate_data.views",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Climate_Agency.climate_data.views",
+        "description": "Climate_Agency.climate_data.views",
+        "peekOfCode": "def index(request):\n    return render(request, 'climate_data/index.html')",
+        "detail": "Climate_Agency.climate_data.views",
+        "documentation": {}
+    },
+    {
         "label": "API_KEY",
         "kind": 5,
         "importPath": "Climate_Agency.climate_data.views",
         "description": "Climate_Agency.climate_data.views",
-        "peekOfCode": "API_KEY = \"bedfaf1716027c9c280859ad56670795\"  # 🔹 apna key yahan dalna\ndef index(request):\n    city = request.GET.get(\"city\", \"Karachi\")  # default city\n    url = f\"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric\"\n    try:\n        response = requests.get(url)\n        data = response.json()\n        if data.get(\"cod\") != 200:\n            raise Exception(data.get(\"message\", \"City not found\"))\n        context = {",
+        "peekOfCode": "API_KEY = \"bedfaf1716027c9c280859ad56670795\"  # 🔹 apna key yahan dalna\ndef hello(request):\n    return HttpResponse(\"Hello Nabela!\")\ndef add_user(request):\n    user = User(name=\"Nabela\", age=23)\n    user.save()  # Saves to the database configured in Django settings\n    return HttpResponse(\"User added!\")\ndef index(request):\n    city = request.GET.get(\"city\", \"Karachi\")  # default city\n    url = f\"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric\"",
         "detail": "Climate_Agency.climate_data.views",
         "documentation": {}
     },
@@ -1052,57 +1547,480 @@
         "documentation": {}
     },
     {
-        "label": "WeatherConfig",
-        "kind": 6,
-        "importPath": "Climate_Agency.weather.apps",
-        "description": "Climate_Agency.weather.apps",
-        "peekOfCode": "class WeatherConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'weather'",
-        "detail": "Climate_Agency.weather.apps",
-        "documentation": {}
-    },
-    {
-        "label": "WeatherReport",
-        "kind": 6,
-        "importPath": "Climate_Agency.weather.models",
-        "description": "Climate_Agency.weather.models",
-        "peekOfCode": "class WeatherReport(models.Model):\n    city = models.CharField(max_length=100)\n    temperature = models.FloatField()\n    humidity = models.FloatField()\n    wind_speed = models.FloatField()\n    description = models.CharField(max_length=100)\n    date = models.DateTimeField(auto_now_add=True)\ndef __str__(self):\n    return f\"{self.city} - {self.date.strftime('%Y-%m-%d %H:%M')}\"",
-        "detail": "Climate_Agency.weather.models",
-        "documentation": {}
-    },
-    {
-        "label": "home",
+        "label": "main",
         "kind": 2,
-        "importPath": "Climate_Agency.weather.views",
-        "description": "Climate_Agency.weather.views",
-        "peekOfCode": "def home(request):\n    city = request.GET.get('city', 'Karachi')\n    api_key = 'bedfaf1716027c9c280859ad56670795'\n    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'\n    data = requests.get(url).json()\n# save to MongoDB\nWeatherReport.objects.create(\n    city=city,\n    temperature=data['main']['temp'],\n    humidity=data['main']['humidity'],",
-        "detail": "Climate_Agency.weather.views",
+        "importPath": "Climate_Agency.manage",
+        "description": "Climate_Agency.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Climate_Agency.settings')\n    sys.path.append(os.path.join(os.path.dirname(__file__), 'Climate_Agency'))\n    try:\n        execute_from_command_line(sys.argv)\n    except Exception as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"",
+        "detail": "Climate_Agency.manage",
         "documentation": {}
     },
     {
-        "label": "home",
-        "kind": 2,
-        "importPath": "Climate_Agency.weather.views",
-        "description": "Climate_Agency.weather.views",
-        "peekOfCode": "def home(request):\n    city = request.GET.get('city', 'Karachi')\n    api_key = 'bedfaf1716027c9c280859ad56670795'\n    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'\n    data = requests.get(url).json()\n    # save to MongoDB\n    WeatherReport.objects.create(\n        city=city,\n        temperature=data['main']['temp'],\n        humidity=data['main']['humidity'],",
-        "detail": "Climate_Agency.weather.views",
+        "label": "PollsConfig",
+        "kind": 6,
+        "importPath": "polls.apps",
+        "description": "polls.apps",
+        "peekOfCode": "class PollsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'polls'",
+        "detail": "polls.apps",
         "documentation": {}
     },
     {
-        "label": "context",
+        "label": "WeatherAppConfig",
+        "kind": 6,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_app.apps",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_app.apps",
+        "peekOfCode": "class WeatherAppConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'weather_app'",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_app.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
         "kind": 5,
-        "importPath": "Climate_Agency.weather.views",
-        "description": "Climate_Agency.weather.views",
-        "peekOfCode": "context = {\n        'city': city,\n        'temp': data['main']['temp'],\n        'humidity': data['main']['humidity'],\n        'wind': data['wind']['speed'],\n        'description': data['weather'][0]['description'],\n        'icon': data['weather'][0]['icon'] \n    }\ndef home(request):\n    city = request.GET.get('city', 'Karachi')",
-        "detail": "Climate_Agency.weather.views",
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_app.urls",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_app.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", weather_view, name=\"weather\"),\n]",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_app.urls",
+        "documentation": {}
+    },
+    {
+        "label": "weather_view",
+        "kind": 2,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_app.views",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_app.views",
+        "peekOfCode": "def weather_view(request):\n    weather_data = None\n    if request.method == \"POST\":\n        city = request.POST.get(\"city\")\n        if city:\n            url = f\"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric\"\n            response = requests.get(url)\n            if response.status_code == 200:\n                data = response.json()\n                weather_data = {",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_app.views",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_app.views",
+        "peekOfCode": "API_KEY = \"986d36f8cb9cec168df0126f7355cbfe\"\ndef weather_view(request):\n    weather_data = None\n    if request.method == \"POST\":\n        city = request.POST.get(\"city\")\n        if city:\n            url = f\"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric\"\n            response = requests.get(url)\n            if response.status_code == 200:\n                data = response.json()",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.asgi",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-h0tkfz6sp$a@&fl9yk(#jblsecu)s_+jr+jfd7q3ahnxx1iepk'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-h0tkfz6sp$a@&fl9yk(#jblsecu)s_+jr+jfd7q3ahnxx1iepk'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'weather_app',",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'weather_app',\n]\nMIDDLEWARE = [",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'weather_project.urls'",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "ROOT_URLCONF = 'weather_project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'weather_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.urls",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"\", include(\"weather_app.urls\")),\n]",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.weather_project.wsgi",
+        "description": "weather-dashboard.weather-dashboard.weather_project.weather_project.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.weather_project.wsgi",
         "documentation": {}
     },
     {
         "label": "main",
         "kind": 2,
-        "importPath": "manage",
-        "description": "manage",
-        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Climate_Agency.settings')\n    # ✅ Add both folders to sys.path so Python can locate climate_data\n    sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'Climate_Agency')))\n    sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'climate_data')))\n    try:\n        import django\n        django.setup()\n        from django.core.management import execute_from_command_line",
-        "detail": "manage",
+        "importPath": "weather-dashboard.weather-dashboard.weather_project.manage",
+        "description": "weather-dashboard.weather-dashboard.weather_project.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'climate_data.settings')\ntry:\n    from django.core.management import execute_from_command_line\nexcept ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "weather-dashboard.weather-dashboard.weather_project.manage",
+        "documentation": {}
+    },
+    {
+        "label": "WeatherAppConfig",
+        "kind": 6,
+        "importPath": "weather-dashboard.weather_project.weather_app.apps",
+        "description": "weather-dashboard.weather_project.weather_app.apps",
+        "peekOfCode": "class WeatherAppConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'weather_app'",
+        "detail": "weather-dashboard.weather_project.weather_app.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_app.urls",
+        "description": "weather-dashboard.weather_project.weather_app.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", weather_view, name=\"weather\"),\n]",
+        "detail": "weather-dashboard.weather_project.weather_app.urls",
+        "documentation": {}
+    },
+    {
+        "label": "weather_view",
+        "kind": 2,
+        "importPath": "weather-dashboard.weather_project.weather_app.views",
+        "description": "weather-dashboard.weather_project.weather_app.views",
+        "peekOfCode": "def weather_view(request):\n    weather_data = None\n    if request.method == \"POST\":\n        city = request.POST.get(\"city\")\n        if city:\n            url = f\"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric\"\n            response = requests.get(url)\n            if response.status_code == 200:\n                data = response.json()\n                weather_data = {",
+        "detail": "weather-dashboard.weather_project.weather_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_app.views",
+        "description": "weather-dashboard.weather_project.weather_app.views",
+        "peekOfCode": "API_KEY = \"986d36f8cb9cec168df0126f7355cbfe\"\ndef weather_view(request):\n    weather_data = None\n    if request.method == \"POST\":\n        city = request.POST.get(\"city\")\n        if city:\n            url = f\"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric\"\n            response = requests.get(url)\n            if response.status_code == 200:\n                data = response.json()",
+        "detail": "weather-dashboard.weather_project.weather_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.asgi",
+        "description": "weather-dashboard.weather_project.weather_project.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "weather-dashboard.weather_project.weather_project.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-h0tkfz6sp$a@&fl9yk(#jblsecu)s_+jr+jfd7q3ahnxx1iepk'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-h0tkfz6sp$a@&fl9yk(#jblsecu)s_+jr+jfd7q3ahnxx1iepk'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'weather_app',",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'weather_app',\n]\nMIDDLEWARE = [",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'weather_project.urls'",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "ROOT_URLCONF = 'weather_project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'weather_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.settings",
+        "description": "weather-dashboard.weather_project.weather_project.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "weather-dashboard.weather_project.weather_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.urls",
+        "description": "weather-dashboard.weather_project.weather_project.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"\", include(\"weather_app.urls\")),\n]",
+        "detail": "weather-dashboard.weather_project.weather_project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "weather-dashboard.weather_project.weather_project.wsgi",
+        "description": "weather-dashboard.weather_project.weather_project.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "weather-dashboard.weather_project.weather_project.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "weather-dashboard.weather_project.manage",
+        "description": "weather-dashboard.weather_project.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'weather_project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "weather-dashboard.weather_project.manage",
+        "documentation": {}
+    },
+    {
+        "label": "parse_header",
+        "kind": 2,
+        "importPath": "cgi",
+        "description": "cgi",
+        "peekOfCode": "def parse_header(line):\n    parts = line.split(';')\n    key = parts[0].strip().lower()\n    pdict = {}\n    for p in parts[1:]:\n        if '=' in p:\n            k, v = p.split('=', 1)\n            pdict[k.strip().lower()] = v.strip().strip('\"')\n    return key, pdict",
+        "detail": "cgi",
         "documentation": {}
     }
 ]

@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "5": "^0.0.1",
+    "bootstrap": "^5.3.8",
+    "react-bootstrap": "^2.10.10",
+    "react-native": "^0.82.1"
+  },
+  "name": "python_django",
+  "version": "1.0.0",
+  "description": "\"# climate_agency\" \r \"# climate_agency\" \r \"# climate_agency\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabilaarsalankhan/climate_agency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabilaarsalankhan/climate_agency/issues"
+  },
+  "homepage": "https://github.com/nabilaarsalankhan/climate_agency#readme"
+}

@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecome.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Climate_Agency.Climate_Agency.settings')
 
 application = get_asgi_application()

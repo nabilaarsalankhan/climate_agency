@@ -1,7 +1,12 @@
+import django
 from django.shortcuts import render
 from django.http import JsonResponse
 from datetime import datetime
 import requests
+from django.shortcuts import render
+
+
+
 
 # ✅ Your registered API key (keep it as you said)
 API_KEY = 'bedfaf1716027c9c280859ad56670795'
@@ -12,7 +17,7 @@ def index(request):
     weather_data = None
     if request.method == 'POST':
         city = request.POST.get('city')
-        url = f"{BASE_URL}weather?q={city}&appid={API_KEY}&units=metric"
+        url = f"{BASE_URL}weather?q={city}&appid={'bedfaf1716027c9c280859ad56670795'}&units=metric"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -23,14 +28,14 @@ def index(request):
     return render(request, 'index.html', {'weather': weather_data})
 
 
-def home(request):
+def index(request):
     city = request.GET.get("city", "Karachi")  # default city
     weather, hourly, daily = None, [], []
     error = None
 
     try:
         # ✅ Current weather API call
-        res = requests.get(f"{BASE_URL}weather?q={city}&units=metric&appid={API_KEY}").json()
+        res = requests.get(f"{BASE_URL}weather?q={city}&units=metric&appid={'bedfaf1716027c9c280859ad56670795'}").json()
 
         if res.get("cod") != 200:
             error = res.get("message", "City not found")
@@ -49,7 +54,7 @@ def home(request):
             }
 
         # ✅ Forecast API call
-        f_res = requests.get(f"{BASE_URL}forecast?q={city}&units=metric&appid={API_KEY}").json()
+        f_res = requests.get(f"{BASE_URL}forecast?q={city}&units=metric&appid={'bedfaf1716027c9c280859ad56670795'}").json()
         if f_res.get("cod") == "200":
             # Hourly next 12 slots
             for item in f_res["list"][:12]:
@@ -80,3 +85,6 @@ def home(request):
         "daily": daily,
         "error": error,
     })
+    
+def dashboard(request):
+    return render(request, 'dashboard.html') 

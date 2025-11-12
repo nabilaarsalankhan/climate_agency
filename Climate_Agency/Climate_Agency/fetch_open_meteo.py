@@ -1,30 +1,55 @@
 import os
-import sys
 import django
+import requests
+from django.utils.timezone import now
+from django.contrib.auth import get_user_model
+# from climate_data.models import ClimateDataSource, ClimateDataset
+# from climate_data.test_mongo import test_mongo_connection
 
-# ---------- Set project path ----------
-project_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Climate_Agency'))
-sys.path.insert(0, project_path)
+# # test connection
+# test_mongo_connection()
 
-# ---------- Set Django settings ----------
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Climate_Agency.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Climate_Agency.Climate_Agency.settings')
 django.setup()
 
-# ---------- Import your function ----------
+# from climate_data.models import ClimateDataSource, ClimateDataset
 
-try:
-	from Climate_Agency.climate_data.utils.fetch_open_meteo import fetch_open_meteo
-except Exception:
-	# Fallback: load the module directly from its file in case package imports fail
-	import importlib.util
-	module_path = os.path.join(project_path, 'Climate_Agency', 'climate_data', 'utils', 'fetch_open_meteo.py')
-	spec = importlib.util.spec_from_file_location("fetch_open_meteo_module", module_path)
-	if spec is None or spec.loader is None:
-		raise ImportError(f"Could not load module from {module_path}")
-	fetch_mod = importlib.util.module_from_spec(spec)
-	spec.loader.exec_module(fetch_mod)
-	fetch_open_meteo = getattr(fetch_mod, 'fetch_open_meteo')
+def fetch_open_meteo(city_coords):
+    lat, lon = city_coords
+    url = "https://api.open-meteo.com/v1/forecast"
+    params = {
+        "latitude": lat,
+        "longitude": lon,
+        "current_weather": "true",
+        "hourly": "temperature_2m,relative_humidity_2m,wind_speed_10m"
+    }
 
-# Karachi coordinates
-dataset, data = fetch_open_meteo((24.8607, 67.0011))
-print(data)
+    resp = requests.get(url, params=params).json()
+    current = resp.get("current_weather", {})
+
+    source, _ = ClimateDataSource.objects.get_or_create(
+        name="OpenMeteo",
+        source_type="weather_station",
+        location=f"Lat {lat}, Lon {lon}"
+    )
+
+    User = get_user_model()
+    admin = User.objects.filter(is_superuser=True).first()
+
+    dataset = ClimateDataset.objects.create(
+        name=f"OpenMeteo Weather - {lat},{lon} - {now()}",
+        description="Weather data from OpenMeteo API",
+        data_type="temperature",
+        format_type="json",
+        source=source,
+        file_size=len(str(resp)),
+        uploaded_by=admin,
+        time_period_start=now(),
+        time_period_end=now(),
+        geographical_scope=f"{lat},{lon}",
+        is_public=True,
+        requires_processing=False,
+        file="dummy.json"
+    )
+    print("✅ Weather data fetched and saved successfully!")
+    return dataset, resp

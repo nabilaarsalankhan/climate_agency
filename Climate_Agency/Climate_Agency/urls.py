@@ -24,8 +24,10 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('dashboard/', views.dashboard, name='dashboard'),   # Dashboard
-    path('', include('weather.urls')),# 👈 replace 'yourappname' with your Django app name
+    path('', views.index, name='climate_data_index'), 
+    path('dashboard/', views.dashboard, name='dashboard'),   # Dashboard
+    
+    path('', include('climate_data.urls')),# 👈 replace 'yourappname' with your Django app name
     path('accounts/', include('accounts.urls')),  # Accounts
     path('dashboard/', include('dashboard.urls')),  # Dashboard
   
