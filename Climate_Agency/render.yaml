@@ -1,6 +1,6 @@
 services:
     type: web
-    name: climate-eshal-fatima-app.onrender.com
+    name: climate-eshal-fatima-web.onrender.com
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"

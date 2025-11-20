@@ -3,7 +3,7 @@
 import os
 import sys
 import types, sys
-from django.core.management import execute_from_command_line
+# from django.core.management import execute_from_command_line
 if 'cgi' not in sys.modules:
         sys.modules['cgi'] = types.SimpleNamespace(
         parse_header=lambda x: (x, {}),

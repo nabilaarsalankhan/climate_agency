@@ -6,19 +6,17 @@ from pathlib import Path
 from pathlib import Path
 from pathlib import Path
 from pymongo import MongoClient
-import dj_database_url
+import dj_database_url 
 import mongoengine
-from mongoengine import connect
-from dotenv import load_dotenv
-load_dotenv()   
-from dotenv import load_dotenv
-load_dotenv()
+# from mongoengine import connect
+# from dotenv import load_dotenv
+# load_dotenv()   
+# from dotenv import load_dotenv
+# load_dotenv()
 from dotenv import load_dotenv
 load_dotenv()
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', '...')
-
-
 """
 Django settings for Climate_Agency.climate_data project.
 
@@ -32,17 +30,18 @@ https://docs.djangoproject.com/en/5.2.5/ref/settings/
 """
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+SECRET_KEY = os.getenv("django-insecure-climate_agency_2025_-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb")
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / '.env')
-mongoengine.connect(host=os.getenv("MONGO_URI", "mongodb://localhost:27017/climate_agency_db"))
+DEBUG = os.getenv("DEBUG") == "True"
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "climate-eshal-fatima-web.onrender.com").split(",")
 
+# MongoDB connection
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/climate_agency_db")
+mongoengine.connect(host=MONGO_URI)
 
-SECRET_KEY = os.getenv("django-insecure-q*biq3bty0o3d3@^tww*jgy_nnb*4zd8m51477%&cq1ms_cgmb")
-DEBUG = os.getenv('DEBUG', 'False') == 'True'
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "").split(",")
-
-ALLOWED_HOSTS = ['climate-eshal-fatima-app.onrender.com', 'localhost']
+print(f"✅ MongoDB connected successfully: {os.getenv('DATABASE_NAME', 'climate_agency_db')}")
 
 
 
